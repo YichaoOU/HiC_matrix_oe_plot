@@ -18,6 +18,6 @@ python dump_hic.py chrom.size
 python HiCPlotter.py -f Jurkat_HiC_homer_tag_Y_PATERNAL_oe.mat -n chrY -chr chrY_paternal -o test.pdf -r 250000 -fh 0  -ext pdf -nl 1 -hmc 3 -hist Jurkat_20copy.PC1.bedGraph.sorted -hl PC1 -hc "143D52" -fhist 1
 ```
 
-The `HiCplotter.py` is specifically modified to plot negative values and Red White Blue color map.
+The `HiCplotter.py` is specifically modified to plot O/E values (e.g., negative values) and Red White Blue color map.
 
 
